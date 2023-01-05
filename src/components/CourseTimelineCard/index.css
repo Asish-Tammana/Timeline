@@ -1,0 +1,38 @@
+.ma {
+  padding: 10px;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.title-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.horizontal {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.duration-para {
+  color: #171f46;
+  margin-left: 2px;
+  font-weight: bold;
+}
+.tag-para {
+  margin: 6px;
+  background-color: #74c8e2;
+  padding: 5px;
+  border-radius: 3px;
+  color: #1e293b;
+}
